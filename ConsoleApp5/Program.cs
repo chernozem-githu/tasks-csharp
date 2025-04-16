@@ -698,26 +698,23 @@ for (int i = 0; i < matrix.GetLength(0); i++)
 }
 */
 
-//2
-/*
-int[,] matrix = {
-{1, 2, 3, 4},
-{5, 6, 7, 8},
-{9, 10, 11, 12}
-};
-for (int i = 0; i < matrix.GetLength(0); i++)
-{
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-        Console.Write(Math.Pow(matrix[i, j], 2) + " ");
-    }
-    Console.WriteLine();
-}
+/*int[,] matrix1 = {{1, 2, 3, 4},
+                   {5, 6, 7, 8},
+                   {9, 10, 11, 12},
+                   {13, 14, 15, 16}
+                  };
+  for (int i = 0; i < matrix1.GetLength(0); i++)
+  {
+      for (int j = 0; j < matrix1.GetLength(1); j++)
+      {
+          Console.Write(matrix1[i, j] + " ");
+      }
+      Console.WriteLine();
+  }
+
 */
 
-
-
-
+/*
 using System;
 
 class Program
@@ -755,3 +752,4 @@ class Program
         Console.WriteLine($"Сумма всех элементов массива: {sum}");// выводим общую сумму всех элем массива 
     }
 }
+*/
