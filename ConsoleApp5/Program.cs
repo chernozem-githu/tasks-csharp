@@ -753,3 +753,66 @@ class Program
     }
 }
 */
+/*4
+using System;
+
+int[,] a = { { 1, 2, 3 },
+     { 4, 5, 6 },
+     { 7, 8, 9 },};
+int max = a[0, 0];
+for (int i = 0; i < a.GetLength(0); i++) // строки
+{
+    for (int j = 0; j < a.GetLength(1); j++) // столбцы
+    {
+        if (a[i, j] > max)
+        {
+            max = a[i, j];
+        }
+    }
+}
+Console.WriteLine("максимальный элемент массива" + max);
+*/
+
+
+/*5
+ int[,] arr = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+for (int j = 0; j < 3; j++)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        Console.Write(arr[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+*/
+
+/*6 
+ *Console.Write("Введите количество строк: ");
+int rows = int.Parse(Console.ReadLine());
+
+int[][] triangle = new int[rows][];
+int number = 1;
+
+for (int r = 0; r < rows; r++)
+{
+    triangle[r] = new int[r + 1];
+    for (int c = 0; c < triangle[r].Length; c++)
+    {
+        triangle[r][c] = number++;
+    }
+}
+
+for (int r = 0; r < triangle.Length; r++)
+{
+    for (int c = 0; c < triangle[r].Length; c++)
+    {
+        Console.Write($"{triangle[r][c]} \t");
+    }
+    Console.WriteLine();
+}
+*/
